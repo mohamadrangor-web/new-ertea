@@ -1,0 +1,38 @@
+/* تنظیمات عمومی فونت برای فارسی و RTL */
+body {
+    font-family: 'Vazirmatn', sans-serif;
+    /* تنظیم سایز فونت برای خوانایی بهتر */
+    font-size: 1.05rem; 
+}
+
+/* سفارشی‌سازی رنگ اصلی برای Navbar و Carousel */
+/* رنگ آبی تیره تر برای تم اصلی */
+.bg-dark {
+    background-color: #43106b !important; 
+}
+
+/* رنگ اصلی برای عناوین و بخش Carousel */
+.text-primary {
+    color: #27008b !important; /* آبی تیره Bootstrap */
+}
+.bg-primary {
+    background-color: #828588 !important;
+}
+
+/* تنظیم Navbar Brand در RTL */
+.navbar-brand {
+    margin-right: 0;
+    margin-left: 1rem;
+}
+
+/* تنظیم دکمه بستن در Modal برای RTL */
+.modal-header .btn-close {
+    margin-left: 0.5rem; /* فاصله دکمه بستن از سمت چپ */
+    margin-right: auto; /* کشیدن دکمه به سمت چپ */
+}
+
+/* بهبود ظاهری Progress Bar */
+.progress-bar {
+    text-align: center;
+    direction: ltr; /* محتوای داخل Progress Bar را چپ به راست نمایش می‌دهد تا درصد خوانا باشد */
+}
